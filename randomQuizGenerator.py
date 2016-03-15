@@ -3,8 +3,8 @@
 # random order, along with the answer key.
 
 import random, os
-os.makedirs(os.path.join('answers'), exist_ok=True) #creates folder titled Answers, if folder already exists it returns true so that the program can continue. 
-os.makedirs(os.path.join('quizzes'), exist_ok=True) #creates folder for Quizzes
+os.makedirs(os.path.join('./answers'), exist_ok=True) #creates folder titled Answers, if folder already exists it returns true so that the program can continue. 
+os.makedirs(os.path.join('./quizzes'), exist_ok=True) #creates folder for Quizzes
 
 # The quiz data. Keys are states and values are their capitals.
 capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
